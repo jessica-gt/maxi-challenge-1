@@ -1,3 +1,31 @@
 hr {
-	width:70%;
+	width:80%;
+	border:1px rgba(255, 255, 255, 0.5) solid;
+}
+
+/* div Article avec image et list */
+
+.article {
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	width:80%;
+}
+
+.img {
+	display:flex;
+	flex-direction: column;
+}
+
+.list {
+	width:75%;
+	margin-left: 30px;
+}
+
+.list li {
+	display: list-item;
+}
+
+.list p {
+	display: inline-block;
 }
