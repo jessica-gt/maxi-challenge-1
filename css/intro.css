@@ -28,6 +28,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	height:1024px;
+	font-family: "Quicksand";
 }
 
 /* navbar */
@@ -46,6 +47,7 @@ body {
 .nav a {
 	color:rgba(255, 255, 255, 0.5);
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .nav a:hover {
@@ -68,11 +70,13 @@ body {
 .title h1 {
 	font-size: 70px;
 	margin-bottom: 0;
+	font-weight: normal;
 }
 
 .title h2 {
 	color:rgba(255, 255, 255, 0.5);
 	font-size:18px;
+	font-weight: normal;
 }
 
 /* audio */
