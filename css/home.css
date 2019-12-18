@@ -1,0 +1,31 @@
+/* article 1 titre */
+
+.videoTitle {
+	width:100%;
+	color:white;
+	display:flex;
+	justify-content: space-between;
+}
+
+.videoTitle p {
+	margin:0 10% 0 10%;	
+	color:rgba(255, 255, 255, 0.5);
+	font-size: 12px;
+}
+
+.videoTitle span {
+	font-weight: bold;
+	color:rgba(255, 255, 255, 1);
+	font-size: 18px;
+}
+
+/* Article 1 video */
+
+.videos {
+	display:flex;
+	width:80%;
+}
+
+.videos img {
+	width:100%;
+}
