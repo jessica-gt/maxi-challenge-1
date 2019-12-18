@@ -1,6 +1,47 @@
+/* icone social */
+
+@font-face {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot');
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+/* body */
+
 body {
 	margin:0 auto;
 	background-color: black;
+}
+
+hr {
+	width:80%;
+	border:1px rgba(255, 255, 255, 0.5) solid;
 }
 
 /* background */
@@ -88,3 +129,63 @@ audio {
 	width:100%;
 }
 
+/* footer */
+
+footer {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post {
+	color:white;
+	display:flex;
+	justify-content: center;
+	width:80%;
+}
+
+.about {
+	width:40%;
+	margin:30px;
+}
+
+.about p {
+	color:rgba(255, 255, 255, 0.5);
+}
+
+.about strong {
+	color:rgba(255, 255, 255, 0.7);
+}
+
+.about em {
+	font-size: 12px;
+}
+
+.about img {
+	width:100%;
+}
+
+/* footer social */
+
+.social {
+	height:300px;
+}
+
+.social ul {
+	display:flex;
+}
+
+.social li {
+	list-style: none;
+}
+
+.social a {
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.social p {
+	color:white;
+	text-align: center;
+}
