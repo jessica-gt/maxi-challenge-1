@@ -4,7 +4,7 @@
 		<title>OBSIDIAN</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/intro.css">
-		<link rel="stylesheet" type="text/css" href="css/music.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	</head>
 	<body>
@@ -24,7 +24,7 @@
 						<a href="">PHOTOS</a>
 					</li>
 					<li>
-						<a href="music.html" id="here">MUSIC</a>
+						<a href="music.html">MUSIC</a>
 					</li>
 					<li>
 						<a href="">VIDEOS</a>
@@ -36,47 +36,60 @@
 						<a href="">TOUR</a>
 					</li>
 					<li>
-						<a href="contact.html">CONTACT</a>
+						<a href="contact.html" id="here">CONTACT</a>
 					</li>
 				</ul>
 			</div>
 			<div class="title">
 				<h1>OBSIDIAN</h1>
-				<h2>RECORDS</h2>
+				<h2>CONTACT</h2>
 			</div>
 		</header>
-		<hr>
 		<div class="audio">
 			<audio src="" controls></audio>
 		</div>
+
+
+		<!-- Ecrire ici la suite du site --> 
+		<hr>
 		<div class="article">
-			<div class="img">
-				<img src="images/album-03-300x300.jpg" alt="album 3">
-				<button class="buy" type="button">
-    				ITUNES
-				</button>
-				<button class="buy" type="button">
-    				AMAZON
-				</button>
-				<button class="buy" type="button">
-    				SPOTIFY
-				</button>
+			<div class="form">
+				<p><label for="name">Name <span>(required)</span></label></p>
+				<input type="text" name="name" id="name">
+				<p><label for="mail">Email <span>(required)</span></label></p>
+				<input type="email" name="mail" id="mail">
+				<p><label for="website">Website</label></p>
+				<input type="text" name="website" id="website">
+				<p><label for="comment">Comment <span>(required)</span></label></p>
+				<textarea id="comment" rows="10" cols="20"></textarea>
+				<div class="submit">
+					<input type="submit" value="SUBMIT >>">
+				</div>
 			</div>
-			<div class="list">
-				<h3>Vivienne's Omitted Line</h3>
-				<p class="release">RELEASE: 2013</p>
-				<ol>
-					<li><p><span>1</span>The Burial of the Dead</p><p>-:--</p></li>
-					<li><p><span>2</span>Dirge</p><p>-:--</p></li>
-					<li><p><span>3</span>The Fire Sermon</p><p>-:--</p></li>
-					<li><p><span>4</span>The Fisher King</p><p>-:--</p></li>
-					<li><p><span>5</span>A Game of Chess</p><p>-:--</p></li>
-					<li><p><span>6</span>Vivienne's Omitted Line</p><p>-:--</p></li>
-					<li><p><span>7</span>What the Thunder Said</p><p>-:--</p></li>
-					<li><p><span>8</span>The Wounded King</p><p>-:--</p></li>
-				</ol>
+			<div class="latestNews">
+				<input type="search" name="search" placeholder="search ...">
+				<h3>LATEST NEWS</h3>
+				<div class="new">
+					<h4>Welcome to our redesigned website</h4>
+					<p>Props to AudioTheme for providing the killer Obsidian WordPress theme. Feel free to poke around, str...</p>
+					<p><span>APRIL 1, 2015</span></p>
+				</div>
+				<div class="new">
+					<h4>New tour dates posted</h4>
+					<p>We just announced a handful of new tour dates in support of our latest album. Check'em out he...</p>
+					<p><span>DECEMBER 16, 2014</span></p>
+				</div>
+				<div class="new">
+					<h4>History of Popular Music</h4>
+					<p>"The most significant feature of the emergent popular music industry of the late 18th and earl...</p>
+					<p><span>DECEMBER 15, 2014</span></p>
+				</div>
 			</div>
 		</div>
+
+		<!---->
+
+
 		<footer>
 			<hr>
 			<div class="post">
@@ -85,8 +98,8 @@
 					<p>The Obsidian theme, like the naturally occuring volcanic glass of the same name, possesses an inherent allure that's stylish in appearance and practical in purpose. With distinctive background options and various customization possibilities, Obsidian makes it easy to create the ultimate hub for your online identity.</p>
 				</div>
 				<div class="about">
-					<h3>LIKE A ROSE - ASHLEY MONROE</h3>
-					<p><img src="images/video-like-a-rose-530x300.jpg" alt="Like a rose"></p>
+					<h3>VIVIENNE'S OMITTED LINE</h3>
+					<p><img src="images/album-03.jpg" alt="Like a rose"></p>
 				</div>
 				<div class="about">
 					<h3>RECENT POSTS</h3>
